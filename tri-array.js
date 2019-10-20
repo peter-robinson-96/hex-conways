@@ -6,11 +6,12 @@ function smolTri () {
   return [true]
 }
 
-function upTri () {
-
+function tri (topArr, botArr) {
+ return [topArr, botArr]
 }
 
 module.exports = {
   wideTri,
-  smolTri
+  smolTri,
+  tri
 }
