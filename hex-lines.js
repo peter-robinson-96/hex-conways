@@ -4,7 +4,7 @@ const makeRow = n => {
 }
 
 const makeGrid = (longLength, rowPairsQuantity) => {
-  const rows = Array(rowPairsQuantity).fill([makeRow(longLength),makeRow(longLength-1)])
+  const rows = Array(rowPairsQuantity).fill([makeRow(longLength), makeRow(longLength - 1)])
   return rows
 }
 

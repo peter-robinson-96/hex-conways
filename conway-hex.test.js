@@ -72,7 +72,7 @@ describe('makeGrid returns an array of arrays. This array has length == rowsQuan
   })
   it('array with 20 rows of length 3 and 4 alternating starting with a length 4 row', () => {
     // Arrange
-    const expected = [[[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]],[[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]],[[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]],[[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]]]
+    const expected = [[[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]]]
     // Act
     const actual = hexLines.makeGrid(4, 10)
     // Assert
