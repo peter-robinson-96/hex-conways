@@ -3,8 +3,8 @@ const makeRow = n => {
   return row
 }
 
-const makeGrid = (longLength, rowsQuantity) => {
-  const rows = Array(rowsQuantity).fill([makeRow(longLength),makeRow(longLength-1)])
+const makeGrid = (longLength, rowPairsQuantity) => {
+  const rows = Array(rowPairsQuantity).fill([makeRow(longLength),makeRow(longLength-1)])
   return rows
 }
 
