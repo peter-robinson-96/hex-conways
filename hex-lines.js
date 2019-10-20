@@ -1,18 +1,14 @@
-const makeShortRow = n => {
-  row = Array(n).fill(true)
+const makeRow = n => {
+  const row = Array(n).fill(true)
   return row
 }
 
-// const makeLongRow = n => {
-
-// }
-
-// grid (shortLength, rowsQuantity) => {
-
-// }
-
-
+const makeGrid = (longLength, rowsQuantity) => {
+  const rows = Array(rowsQuantity).fill([makeRow(longLength),makeRow(longLength-1)])
+  return rows
+}
 
 module.exports = {
-  makeShortRow
+  makeRow,
+  makeGrid
 }

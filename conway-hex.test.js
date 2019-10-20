@@ -51,15 +51,26 @@ describe('tri returns an array with 2 elements which are both arrays, one of len
 })
 */
 
-test('makeShortRow returns an array of length n which contains only true in each element', () => {
+test('makeRow returns an array of length n which contains true in each element', () => {
   // Arrange
   const expected = [true, true, true, true, true, true, true, true]
   // Act
-  const actual = hexLines.makeShortRow(8)
+  const actual = hexLines.makeRow(8)
   // Assert
   expect(expect.arrayContaining(actual)).toEqual(expect.arrayContaining(expected))
   //
 })
+
+describe('makeGrid returns an array of arrays. This array has length == rowsQuantity and the nested arrays within alternate  which contains true in each element', () => {
+  it('array with 3 rows, with rows of length 3 and 4 alternating starting with a length 4 row', () => {
+    // Arrange
+    const expected = [[[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]], [[true, true, true, true], [true, true, true]]]
+    // Act
+    const actual = hexLines.makeGrid(4, 3)
+    // Assert
+    expect(expect.arrayContaining(actual)).toEqual(expect.arrayContaining(expected))
+  })
+ })
 
 // test('', {
 // // Arrange
