@@ -1,0 +1,15 @@
+{
+  "name": "peter-conways-hex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tri-array.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
