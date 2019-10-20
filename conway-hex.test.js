@@ -1,12 +1,13 @@
-const triArray = require('./tri-array')
-
+// const triArray = require('./tri-array')
+const hexLines = require('./hex-lines')
 test('jest set up correctly', () => {
-// Arrange
-// Act
-// Assert
+  // Arrange
+  // Act
+  // Assert
   expect(true).toBeTruthy
-//
+  //
 })
+/*
 
 describe('the base tri functions return arrays of the correct length', () => {
   it('wideTri returns an array with 2 elements which are true booleans', () => {
@@ -48,11 +49,22 @@ describe('tri returns an array with 2 elements which are both arrays, one of len
     expect(expect.arrayContaining(actual)).toEqual(expect.arrayContaining(expected))
   })
 })
+*/
 
-// test('',) {
+test('makeShortRow returns an array of length n which contains only true in each element', () => {
+  // Arrange
+  const expected = [true, true, true, true, true, true, true, true]
+  // Act
+  const actual = hexLines.makeShortRow(8)
+  // Assert
+  expect(expect.arrayContaining(actual)).toEqual(expect.arrayContaining(expected))
+  //
+})
+
+// test('', {
 // // Arrange
 
 // // Act
 // // Assert
 // //
-// }
+// })
