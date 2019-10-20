@@ -1,8 +1,12 @@
 function wideTri () {
-  const arr = [true, true]
-  return arr
+  return [true, true]
+}
+
+function smolTri () {
+  return [true]
 }
 
 module.exports = {
-  wideTri
+  wideTri,
+  smolTri
 }
