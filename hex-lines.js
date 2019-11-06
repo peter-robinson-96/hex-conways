@@ -8,6 +8,8 @@ const makeGrid = (longLength, rowPairsQuantity) => {
   return rows
 }
 
+console.log(makeGrid(4, 5))
+
 module.exports = {
   makeRow,
   makeGrid
