@@ -34,9 +34,7 @@ class Cell extends React.Component {
 
   render () {
     return <React.Fragment>
-      <div style={this.state.style} onClick={this.toggleStyle}>
-
-      </div>
+      <div style={this.state.style} onClick={this.toggleStyle}></div>
     </React.Fragment>
   }
 }
