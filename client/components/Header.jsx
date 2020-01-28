@@ -1,0 +1,1 @@
+// This component holds the instructions and title. Potentially it can be minimized out of the way.
