@@ -2,9 +2,10 @@
   "name": "peter-conways-hex",
   "version": "1.0.0",
   "description": "",
-  "main": "tri-array.js",
+  "main": "server/index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "",
