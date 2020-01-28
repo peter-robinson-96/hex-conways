@@ -7,6 +7,7 @@ class Cell extends React.Component {
     style: {
       height: 30,
       width: 30,
+      borderRadius: '50%',
       backgroundColor: 'gray'
     }
   }
@@ -17,6 +18,7 @@ class Cell extends React.Component {
         style: {
           height: 30,
           width: 30,
+          borderRadius: '50%',
           backgroundColor: 'green'
         } })
     } else {
@@ -24,6 +26,7 @@ class Cell extends React.Component {
         style: {
           height: 30,
           width: 30,
+          borderRadius: '50%',
           backgroundColor: 'gray'
         } })
     }
